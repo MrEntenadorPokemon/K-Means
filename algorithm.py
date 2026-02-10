@@ -11,7 +11,7 @@ df['target'] = iris.target
 
 # Analisis y Representacion de los atributos
 sns.pairplot(df, hue = 'target', palette = 'viridis')
-plt.savefig('grafica_iris.png')
+plt.savefig('grafica_iris_color.png')
 print("Grafica guardada como 'grafica_iris_color.png'")
 
 X = df.drop('target', axis = 1)
