@@ -1,0 +1,15 @@
+# Entornos virtuales (Lo más importante)
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos compilados de Python (Basura que no necesitas)
+__pycache__/
+*.pyc
+
+# Archivos de configuración del sistema o IDE (Opcional pero recomendado)
+.DS_Store
+.vscode/
+.idea/
+
